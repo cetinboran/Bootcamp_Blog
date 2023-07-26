@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 10px;
+}
+
+
+.content .title{
+    font-weight: bold;
+    font-size: xx-large;
+}
+

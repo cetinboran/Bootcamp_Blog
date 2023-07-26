@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 70%;
+
+    min-height: 60vh;
+}
+
+.gap{
+    margin-top: 30px;
+}
+
+.posts_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.post .image{
+    position: relative;    
+}
+
+
+.post .title{
+    color: black;
+    text-align: center;
+
+    font-size: larger;
+    font-weight: bold;
+}
+
+.post .description {
+    overflow: hidden;
+
+    width: 245px;
+    height: 75px;
+}
+
+.post .upVote{
+    display: flex;
+
+    gap: 5px;
+
+    position: absolute;
+    bottom: 1px;
+
+    box-sizing: border-box;
+    padding: 5px;
+
+    background-color: rgba(0, 0, 0, 0.400);
+    color: white;
+
+    width: 245px;
+}
+
+.post .upVote .vote{
+    font-weight: bold;
+}
+
+.post .upVote .icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.post .upVote .icon a:hover{
+    transition: all .2s;
+    color: red;
+}

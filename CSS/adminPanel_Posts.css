@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: hidden;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    padding: 10px;
+}
+
+.posts-wrapper{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 20px;
+
+    max-height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.posts-wrapper .post{
+    display: flex;
+    gap: 40px;
+
+}
+
+.post span{
+    font-weight: bold;
+}
+
+.gap{
+    margin-top: 20px;
+}
+
+.post .grow{
+    flex: 1;
+}
+
+
+.button{
+    color: black;
+    text-decoration: none;
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    width: 100px;
+}
+
+.button:hover{
+    transition: all .5;
+    background-color: red;
+    color: white;
+}
+
+.btn{
+    color: black;
+    text-decoration: none;
+    
+    background-color: white;
+    border: none;
+
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    width: 100px;
+}
+
+.btn:hover{
+    transition: all .5;
+    background-color: red;
+    color: white;
+}

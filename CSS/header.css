@@ -1,0 +1,90 @@
+.menu_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginMenu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+    background-color: rgb(33, 27, 27);
+}
+
+.loginMenu > div a{
+    color:white;
+    text-decoration: none;
+}
+
+.loginMenu > div {
+    width: 100px;
+
+    color: white;
+    text-align: center;
+}
+
+.loginMenu .user_icon{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.loginMenu .user_icon a{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.loginMenu .user_icon a:hover{
+    transition: all .5s;
+    color: red;
+}
+
+.logoMenu{
+    display: flex;
+    align-items: center;
+}
+
+.logoMenu > .logo > img {
+    width: 100px;
+    height: 100px;
+}
+
+.logoMenu > .title {
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu > ul > li{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+
+    border: 2px solid white
+}
+
+.menu > ul > li > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+} 
+
+.menu > ul > li:hover{
+    transition: all .5s;
+    border-bottom: 2px red solid;
+}

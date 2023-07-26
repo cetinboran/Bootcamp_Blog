@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    padding: 10px;
+}
+
+.contact_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin-top: 20px;
+}
+
+.contact_wrapper .label{
+    font-weight: bold;
+    text-align: right;
+}
+
+.contact_wrapper .input{
+    padding: 5px;
+}
+
+.contact_wrapper .button{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+
+    margin-top: 10px;
+
+    font-weight: bold;
+    padding: 3px;
+    width: 100px;
+}

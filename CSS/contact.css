@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 70%;
+
+    min-height: 60vh;
+}
+
+.whoami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(229, 36, 36);
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.whoami .title {
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+
+.contact_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.contact_wrapper table{
+    border-spacing: 10px;
+}
+
+.contact_wrapper .label{
+    font-weight: bold;
+    text-align: right;
+}
+
+.contact_wrapper .input{
+    padding: 5px;
+}
+
+.contact_wrapper .button{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+
+
+    font-weight: bold;
+    padding: 3px;
+    width: 100px;
+}
+
+.contact_wrapper .button:hover{
+    transition: all .5;
+    border-bottom: red 2px solid;
+}

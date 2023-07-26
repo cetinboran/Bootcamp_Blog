@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 400px;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 70%;
+}
+
+.register_wrapper{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+}
+
+.label{
+    font-weight: bold;
+    text-align: left;
+}
+
+.input{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.button{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+
+
+    font-weight: bold;
+    padding: 3px;
+    width: 100px;
+}
+
+.button:hover{
+    transition: all .5;
+    border-bottom: red 2px solid;
+}
+
+.whoami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(229, 36, 36);
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.whoami .title {
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 70%;
+
+    min-height: 60vh;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 60vh;
+}

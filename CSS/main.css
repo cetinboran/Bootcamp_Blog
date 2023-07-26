@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin-top: 20px;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 70%;
+
+    min-height: 60vh;
+}
+
+.fav_posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.fav_posts > .subPost_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.fav_posts > .top_post > .image {
+    position: relative;
+}
+
+.sub_post {
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 4px;
+
+    box-sizing: border-box;
+    padding: 5px;
+
+    background-color: rgba(0, 0, 0, 0.400);
+    color: white;
+
+    height: 100px;
+    width: 100%;
+}
+
+.bottom > .title {
+    font-weight: bold;
+}
+
+.bottomSub {
+    position: absolute;
+    bottom: 4px;
+
+    box-sizing: border-box;
+    padding: 5px;
+
+    background-color: rgba(0, 0, 0, 0.400);
+    color: white;
+
+    width: 100%;
+}
+
+.bottomSub > .title {
+    font-weight: bold;
+}
+
+.bottomSub .description{
+    max-height: 50px;
+    overflow: hidden;
+}
+
+/* Fav Posts End*/
+
+.content_wrapper .title{
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.content_wrapper .description{
+    color: gray;
+    
+    font-size: medium;
+}

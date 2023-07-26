@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-wrapper{
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    height:100vh; /* Fills Screen Height*/
+    box-sizing: border-box;
+    padding: 10px;
+
+    justify-content: center;
+    gap: 100px;
+
+    border-right: 3px solid red;
+    border-radius: 20px;
+    width: 300px
+}
+
+.username{
+    text-align: center;
+    font-weight: bold;
+}
+
+.top-header{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header .title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    list-style-type: none;
+}
+
+.menu li{
+    display: block;
+
+    border: solid 2px white;
+
+    width: 150px;
+    height: 20px;
+    
+    text-align: center;
+    padding: 3px;
+}
+
+.menu a{
+    font-weight: bold;
+
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:hover{
+    transition: all .4s;
+    border-bottom: 2px solid red;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia a{
+    padding: 5px;
+
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+
+.socialMedia a:hover{
+    color:red;
+    transition: all .2s;
+}

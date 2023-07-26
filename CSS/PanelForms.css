@@ -1,0 +1,32 @@
+.content{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    font-weight: bold;
+    text-align: right;
+}
+
+.input{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.button{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+
+
+    font-weight: bold;
+    padding: 3px;
+    width: 100px;
+}
+
+.button:hover{
+    transition: all .5;
+    border-bottom: red 2px solid;
+}
